@@ -59,7 +59,7 @@ class Calculator extends React.Component{
   }
 
   number = name => {
-    if (name === "clear"){
+    if (name === "Clear"){
       this.setState({ count: [] })
     }
     else if (name === "="){
